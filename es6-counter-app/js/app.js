@@ -9,17 +9,21 @@ const updateDisplay = () => {
   countDisplay.textContent = count;
 };
 
-increaseBtn.addEventListener("click", () => {
+const increaseCount = () => {
   count++;
   updateDisplay();
-});
+};
 
-decreaseBtn.addEventListener("click", () => {
+const decreaseCount = () => {
   count--;
   updateDisplay();
-});
+};
 
-resetBtn.addEventListener("click", () => {
+const resetCount = () => {
   count = 0;
   updateDisplay();
-});
+};
+
+increaseBtn.addEventListener("click", increaseCount);
+decreaseBtn.addEventListener("click", decreaseCount);
+resetBtn.addEventListener("click", resetCount);
