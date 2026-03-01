@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#count {
+  font-size: 2rem;
+  font-weight: bold;
+}
