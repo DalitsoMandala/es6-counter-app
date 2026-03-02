@@ -21,3 +21,11 @@ button {
   font-size: 2rem;
   font-weight: bold;
 }
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
